@@ -4,7 +4,7 @@ import { createRoot } from "react-dom/client";
 
 import { routeTree } from "#routeTree.gen";
 
-import "./styles.css";
+import "./index.css";
 import { reportWebVitals } from "#report-web-vitals";
 
 const router = createRouter({
