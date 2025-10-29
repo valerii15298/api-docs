@@ -2,7 +2,10 @@ import { ThemeProvider } from "@sane-ts/shadcn-ui";
 import { TanStackDevtools } from "@tanstack/react-devtools";
 import { Outlet, createRootRoute } from "@tanstack/react-router";
 import { TanStackRouterDevtoolsPanel } from "@tanstack/react-router-devtools";
+import { setupMonacoWorkers } from "openapi-docs";
 import { Header } from "#components/header";
+
+setupMonacoWorkers();
 
 export const Route = createRootRoute({
   component: () => (
