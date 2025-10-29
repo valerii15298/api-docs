@@ -34,5 +34,11 @@
     "vite": "^7.1.7",
     "web-vitals": "^5.1.0"
   },
-  "prettier": {}
+  "prettier": {},
+  "pnpm": {
+    "patchedDependencies": {
+      "monaco-editor": "patches/monaco-editor.patch",
+      "@scalar/openapi-types": "patches/@scalar__openapi-types.patch"
+    }
+  }
 }
