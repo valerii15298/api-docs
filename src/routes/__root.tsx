@@ -12,6 +12,7 @@ export const Route = createRootRoute({
       <TanStackDevtools
         config={{
           position: "bottom-right",
+          requireUrlFlag: true,
         }}
         plugins={[
           {
